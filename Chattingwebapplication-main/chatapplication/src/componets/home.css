@@ -1,0 +1,55 @@
+    .keyur {
+        margin-left: 27px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .khushal {
+        background-color: rgb(13, 25, 25);
+    }
+    
+    .friend:hover {
+        background-color: #662e93;
+        color: white;
+    }
+    
+    .user {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .friendlist {
+        overflow-y: scroll;
+    }
+    
+    .sendmsgs {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    
+    .friendname {
+        height: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+    }
+    
+    .userinterface {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .userinterface>* {}
